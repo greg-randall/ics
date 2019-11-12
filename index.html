@@ -1,9 +1,22 @@
-<pre></pre><form method="post" action="create-ics.php" ><br>
- Date Start:<br> <input type="datetime-local" name="date_start"><br><br>
- Date End:<br> <input type="datetime-local" name="date_end"><br><br>
- Location:<br> <input size="100" name="location"><br><br>
- Subject:<br> <input size="100" name="summary" ><br><br>
- Description:<br> <input size="100" name="description"><br><br>
- Password:<br> <input type="password" id="pass" name="password" required><br><br>
- <input type="submit" value="Create ICS Link" ><br>
-</form ><br>
+<form action="create-ics.php" method="post">
+	<br>
+	Date Start:<br>
+	<input name="date_start" type="datetime-local"><br>
+	<br>
+	Date End:<br>
+	<input name="date_end" type="datetime-local"><br>
+	<br>
+	Location:<br>
+	<input name="location" size="100"><br>
+	<br>
+	Subject:<br>
+	<input name="summary" size="100"><br>
+	<br>
+	Description:<br>
+	<input name="description" size="100"><br>
+	<br>
+	Password:<br>
+	<input id="pass" name="password" required="" type="password"><br>
+	<br>
+	<input type="submit" value="Create ICS Link"><br>
+</form>
